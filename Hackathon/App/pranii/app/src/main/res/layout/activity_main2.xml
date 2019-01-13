@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/bg3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome..... Ready for your new ride??"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:text="Driver Number:56777"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#dac500"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:text="Truck Number:MH 04 888"
+            android:textSize="34dp"
+            android:textAlignment="center"
+            android:textColor="#dac500"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/google"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:textColor="#000"
+            android:text="Destination"
+            android:textSize="40dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
